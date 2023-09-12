@@ -16,6 +16,8 @@ import { OperadoresCriacaoJuncaoComponent } from './components/operadores-criaca
 import {HttpClientModule} from "@angular/common/http";
 import { ZipComponent } from './components/zip/zip.component';
 import { MergeConcatComponent } from './components/merge-concat/merge-concat.component';
+import { MapComponent } from './components/operadores-transformacao/map/map.component';
+import { MapToComponent } from './components/operadores-transformacao/map-to/map-to.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { MergeConcatComponent } from './components/merge-concat/merge-concat.com
     AjaxComponent,
     OperadoresCriacaoJuncaoComponent,
     ZipComponent,
-    MergeConcatComponent
+    MergeConcatComponent,
+    MapComponent,
+    MapToComponent
   ],
   imports: [
     HttpClientModule,
